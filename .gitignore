@@ -1,13 +1,7 @@
-    # Ignore large data files
-    data/*.nc
-    data/*.grib
+# Ignore large data files
+data/*.nc
+data/*.grib
 
-    # Ignore generated plots
-    figures/PLOT_*
-
-    # Ignore python cache
-    __pycache__/
-    *.pyc
-    EOF
-
-
+# Ignore python cache
+__pycache__/
+*.pyc
